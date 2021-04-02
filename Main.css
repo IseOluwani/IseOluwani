@@ -1,0 +1,93 @@
+ body {
+    color: #444444;
+    font-family: 'Akaya Telivigala', cursive;
+  }
+  h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 32px;
+}
+
+p {
+  line-height: 1.4;
+}
+img.profile {
+   border: 1px solid grey;
+   width: 200px;
+   height: 200px;
+    padding: 5px;
+}
+img.favourite {
+  border: 1px solid grey;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+img.logo {
+  margin: 0 auto;
+  display: block;
+}
+.banner {
+background-attachment: fixed;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background-image: url(../Image/Background..jpg);
+}
+section.banner p {
+  font-size: 18px;
+  text-align: center;
+}
+section.banner h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+section.about h2 {
+  text-align: center;
+}
+img.profile {
+  float: left;
+}
+section.about {
+  overflow: hidden;
+}
+section.favourites {
+  text-align: center;
+}
+section.contact {
+  text-align: center;
+  background: url(../Image/Heart.png);
+}
+section.contact img {
+  margin: 20px;
+}
+section.box {
+  padding: 50px 100px;
+}
+section.box h2, section.box h3 {
+  color: #A8258D;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #434A5C;
+  background: #ffffff;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.menu li {
+  display: inline-block;
+  padding: 20px 35px;
+}
+.menu a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: '
